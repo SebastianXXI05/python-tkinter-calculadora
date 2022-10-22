@@ -1,13 +1,11 @@
-# Calculadora en Python con Tkinter con efecto hover
-# @autor: Magno Efren
-# Youtube: https://www.youtube.com/c/MagnoEfren
+# Calculadora en Python con Tkinter 
+# @autor: Sebastian Morales
 
 from tkinter import Button, Tk, Frame,Entry,END
 
 ventana = Tk()
-ventana.geometry('274x328')
-ventana.config(bg= "white")
-ventana.iconbitmap(bitmap='icono.ico')
+ventana.geometry('370x340')
+ventana.config(bg= "black")
 ventana.resizable(0,0)
 ventana.title('Calculadora')
 
